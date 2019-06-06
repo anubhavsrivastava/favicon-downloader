@@ -1,0 +1,19 @@
+{
+  "name": "favicon-downloader",
+  "version": "0.0.1",
+  "description": "A module to download favicon of any site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhavsrivastava/favicon-downloader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anubhavsrivastava/favicon-downloader/issues"
+  },
+  "homepage": "https://github.com/anubhavsrivastava/favicon-downloader#readme"
+}
