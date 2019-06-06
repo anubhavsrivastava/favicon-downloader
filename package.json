@@ -1,19 +1,40 @@
 {
-  "name": "favicon-downloader",
-  "version": "0.0.1",
-  "description": "A module to download favicon of any site",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/favicon-downloader.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/favicon-downloader/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/favicon-downloader#readme"
+	"name": "favicon-downloader",
+	"version": "0.0.1",
+	"description": "A module to download favicon of any site",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anubhavsrivastava/favicon-downloader.git"
+	},
+	"author": {
+		"name": "Anubhav Srivastava",
+		"email": "anubhav.srivastava00@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anubhavsrivastava/favicon-downloader/issues"
+	},
+	"homepage": "https://github.com/anubhavsrivastava/favicon-downloader#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.4.5",
+		"@babel/plugin-transform-arrow-functions": "^7.2.0",
+		"@babel/plugin-transform-runtime": "^7.4.4",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/preset-stage-0": "^7.0.0",
+		"@babel/preset-stage-1": "^7.0.0",
+		"@babel/preset-stage-2": "^7.0.0",
+		"@babel/preset-stage-3": "^7.0.0",
+		"@babel/runtime": "^7.4.5",
+		"babel-loader": "^8.0.6",
+		"webpack": "^4.32.2",
+		"webpack-cli": "^3.3.2"
+	},
+	"dependencies": {
+		"favicongrab": "^1.0.0"
+	}
 }
