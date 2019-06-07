@@ -38,6 +38,7 @@
 	},
 	"dependencies": {
 		"axios": "^0.19.0",
-		"favicongrab": "^1.0.0"
+		"favicongrab": "^1.0.0",
+		"make-dir": "^3.0.0"
 	}
 }
