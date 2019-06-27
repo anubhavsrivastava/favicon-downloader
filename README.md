@@ -35,7 +35,7 @@ const { downloadIcons } = require('favicon-downloader');
 
 ## API
 
-It uses the command `favicongrab` module to fetch the favicon and downloads them via `axios`
+It uses the command [`favicongrab`](https://github.com/anubhavsrivastava/favicongrab) module to fetch the favicon and downloads them via `axios`
 
 ### downloadIcons(URL, options?)
 
